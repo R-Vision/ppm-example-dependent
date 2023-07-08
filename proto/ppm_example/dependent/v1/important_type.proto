@@ -1,0 +1,18 @@
+// ppm_example_dependent
+syntax = "proto3";
+
+package ppm_example.dependent.v1;
+
+import "ppm_example/dependency/v1/important_enum.proto";
+
+// Definition of network protocl
+message ProtocolDefinition {
+  // Protocol key
+  ppm_example.dependency.v1.Protocol key = 1;
+  
+  // Human readable name
+  string name = 2;
+
+  // Description``
+  string description = 3;
+}

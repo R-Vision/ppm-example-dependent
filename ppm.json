@@ -1,0 +1,10 @@
+{
+  "$schema": "https://r-vision.github.io/ppm-schema/schema.v1.json",
+  "name": "ppm-example.dependent",
+  "version": "1.0.0",
+  "description": "Contract that depends on another one",
+  "protogen": "1.5.1",
+  "dependencies": {
+    "https://github.com/R-Vision/ppm-example-dependency": "main"
+  }
+}
