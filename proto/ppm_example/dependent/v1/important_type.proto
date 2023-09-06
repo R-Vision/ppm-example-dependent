@@ -5,6 +5,8 @@ package ppm_example.dependent.v1;
 
 import "ppm_example/dependency/v1/important_enum.proto";
 
+option go_package = "ppm_example.dependent.v1";
+
 // Definition of network protocl
 message ProtocolDefinition {
   // Protocol key
